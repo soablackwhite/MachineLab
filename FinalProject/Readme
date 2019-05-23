@@ -54,6 +54,9 @@ but we played around with code and changed some of our initial ideas
 - We wanted to include a loopty loop, really badly. It took us about 3 hours to make one sticking small pieces of cardboard together at
 small angled intervals so as to create a circular ramp, but it didn't look aesthetically pleasing at all and after a bit of playing around
 we discarded it.
+- After the death of the loopty-loop, we couldn't figure out a mechanism that uses motors but would be sort of complicated. So we started
+walking around the map, looking for inspiration. We played around with the magnets on the scissors, and at that moment we decided that we'd use
+them for our project—that's how the magnetic car came to be.
 - We put everything together with a switch-sensor
 - We added the barbie ramp attached to the stepper motor, we added a metallic ramp at the very top, next to a counter-shot mechanism that 
 sends your shot against you if you hit it.
