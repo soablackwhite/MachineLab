@@ -1,1 +1,61 @@
-Hi
+*Concept and description:
+
+This project is a modified version of the pinball machine, where the goal is to survive for the longest time possible. 
+Two of the attractions are electrical while the rest is mechanical. The player starts with launching the ball, then uses the mechanical 
+paddles to keep the ball in game as long as possible while the timer is running. Once the ball falls between the paddles, it triggers the
+button which shows the current score. The screen can also store the value of the highest score and display it.
+
+
+*Elements:
+
+Pinball box: 55cm x 100cm
+
+Launcher:
+  4x springs
+  2x corks: one for the handle the other for pushing the ball
+  
+Pinball handles:
+  4x Rubber bands
+  2x Screw Hooks
+
+Barbie rotating wood ramp:
+  1x Stepper motor
+  2x Barbie hands as barriers
+  4x Rubber bands on top of the ramp to fire back
+
+ Magnetic car:
+  2x magnet: one attached to the car, the other attached to a piece of plywood
+  1x DC motor to rotate
+
+Push-back platform: 
+  1x spring
+  1x acrylic piece
+
+*Challenges & Limitations:
+- We couldn’t make the handles. The biggest problem with this was the precision it would require to dig holes of a certain size on either
+side of the pinball box, which was aggravated by the fact that we didn’t have access to the necessary tools. Then, there would be the 
+problem of finding dowels that actually fit the size we would go for. As we couldn’t find any, we had to try making our own, which was 
+really hard as we didn’t have much practice with making
+- We might have wanted to do more calculations, because the distance between the paddles was too big.
+- We assumed lights were the easiest to implement so we left them last, which was a very bad decision because although the code and wiring
+wasn't hard, figuring out the problems with neopixels isn't evident.
+- Making the attraction to between the magnet and the car strong enough to be able to go back into place after getting hit by a pinball. 
+We succeeded at first, but it seemed that the longer the car ran, the weaker the magnets grew, but we didn't know that was the case. When
+we'd turn the power off and wait it a few minutes to test, it would work again. We still need to figure this out. 
+
+*Process:
+- We cut the wood for paddles then sanded them into the desired shape, most of the design was inspired from https://www.instructables.com/id/Pinball/
+- Cutting wood to make the box, we chose a smooth surface for the ball to roll. Dimensions inspired from https://www.instructables.com/id/Pinball/
+- We prepared the launcher, which took a lot of precision in making the hole, because we wanted the cork to slide again the surface and face resistance
+in order not to wobble around. But we also wanted to minimize this resistance so that the friction doesn't slow down the launching mechanism. Lot of trial & error here
+- Miscenalious attractions: we started making easy mechanical attractions to experiment.
+- Our first time with electronics: we started wiring stuff and motors to make sure they work—though we didn't attach them to anything, 
+but we played around with code and changed some of our initial ideas
+- We wanted to include a loopty loop, really badly. It took us about 3 hours to make one sticking small pieces of cardboard together at
+small angled intervals so as to create a circular ramp, but it didn't look aesthetically pleasing at all and after a bit of playing around
+we discarded it.
+- We put everything together with a switch-sensor
+- We added the barbie ramp attached to the stepper motor, we added a metallic ramp at the very top, next to a counter-shot mechanism that 
+sends your shot against you if you hit it.
+- Set up the LCD, which was very hard to wire because of the confusing reversal of ports
+- We chose to use 3 arduinos to reduce interactions between the music program, the lights, and the motors. However the lights ended up not working.
