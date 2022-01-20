@@ -1,4 +1,4 @@
-##Concept and description:
+## Concept and description:
 
 This project is a modified version of the pinball machine, where the goal is to survive for the longest time possible. 
 Two of the attractions are electrical while the rest is mechanical. The player starts with launching the ball, then uses the mechanical 
@@ -6,7 +6,7 @@ paddles to keep the ball in game as long as possible while the timer is running.
 button which shows the current score. The screen can also store the value of the highest score and display it.
 
 
-##Elements:
+## Elements:
 
 Pinball box: 55cm x 100cm
 
@@ -31,7 +31,7 @@ Push-back platform:
   1x spring
   1x acrylic piece
 
-##Challenges & Limitations:
+## Challenges & Limitations:
 - We couldn’t make the handles. The biggest problem with this was the precision it would require to dig holes of a certain size on either
 side of the pinball box, which was aggravated by the fact that we didn’t have access to the necessary tools. Then, there would be the 
 problem of finding dowels that actually fit the size we would go for. As we couldn’t find any, we had to try making our own, which was 
@@ -43,7 +43,7 @@ wasn't hard, figuring out the problems with neopixels isn't evident.
 We succeeded at first, but it seemed that the longer the car ran, the weaker the magnets grew, but we didn't know that was the case. When
 we'd turn the power off and wait it a few minutes to test, it would work again. We still need to figure this out. 
 
-##Process:
+## Process:
 - We cut the wood for paddles then sanded them into the desired shape, most of the design was inspired from https://www.instructables.com/id/Pinball/
 - Cutting wood to make the box, we chose a smooth surface for the ball to roll. Dimensions inspired from https://www.instructables.com/id/Pinball/
 - We prepared the launcher, which took a lot of precision in making the hole, because we wanted the cork to slide again the surface and face resistance
